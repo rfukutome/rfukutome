@@ -1,5 +1,9 @@
-p{
-	font:italic 12px Helvetica;
+#panel{font: 18px Helvetica; position:fixed; border-right:1px solid gray; width:250px; height: 100%; float:left; padding-top:100px; padding-left: 25px; padding-bottom: 100px;}
+#content{font: 14px Arial; margin-left:260px; padding: 5px 10px 10px 50px}
+#foot{background:red}
+
+heading{
+	font: bold 50px Helvetica;
 	/*
 	color:red;
 	font-family:Arial;
@@ -10,9 +14,20 @@ p{
 }
 
 h1{ /*this is for the main title*/
-	font:bold italic 50px Helvetica;
-	padding:10px 80px 30px 30px; /*top right bottom left */
+	font:bold 50px Helvetica;
+	/*padding:10px 80px 30px 2px; top right bottom left */
 	/*background-color:gray;*/
 	/*border:3px ridge red;*/
-	margin:20px;
 }
+
+h2{
+	font: bold 18px "Times New Roman";
+}
+
+p{
+	font:15px Arial;
+}
+p{line-height: 1.5em}
+
+
+
