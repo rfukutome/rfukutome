@@ -10,8 +10,20 @@ body{
 
 #foot{background:red}
 
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+}
+
 heading{
-	font: bold 50px Helvetica;
+	font: bold 50px Arial;
 	/*
 	color:red;
 	font-family:Arial;
@@ -22,7 +34,7 @@ heading{
 }
 
 h1{ /*this is for the main title*/
-	font:bold 40px Helvetica;
+	font:bold 40px Arial;
 	/*padding:10px 80px 30px 2px; top right bottom left */
 	/*background-color:gray;*/
 	/*border:3px ridge red;*/
@@ -35,6 +47,7 @@ h2{
 p{
 	font:15px Arial;
 }
+
 p{line-height: 1.5em}
 
 
