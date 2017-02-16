@@ -1,10 +1,3 @@
-body{
-	background: url('http://www.fodors.com/wire/Seattle-city-skyline.jpg') no-repeat; height: 100%; width: 100%;
-}
-#panel{font: 18px Helvetica; position:fixed; border:1px solid gray; width:5%; height: 500px; float: left; padding: 100px 10px 0px 10px; margin: 10% 0px 0px 13%}
-
-#panelr{font: 18px Helvetica; position: fixed; border:1px solid gray; width:5%; height: 500px; float: right; padding: 100px 10px 0px 10px; margin: 10% 0px 0px 81.5%}
-
 
 #content{position: fixed; font: 14px Arial; margin:10% 20% 10% 20%; padding: 5px 5px 5px 5px; height: 500px; width:60%; border: 1px solid gray}
 
@@ -20,6 +13,26 @@ body{
     font-size: 40px;
     color: #fff;
     background: 0 0;
+}
+
+body{
+	font:12.5px Arial;
+}
+
+#introduction{
+	text-align: center;
+	height:400px;
+}
+
+#projects{
+	text-align: center;
+	background-color: gray;
+	height:400px;
+}
+
+#experience{
+	text-align: center;
+	height:400px;
 }
 
 heading{
