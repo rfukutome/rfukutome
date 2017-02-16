@@ -1,67 +1,81 @@
-
-#content{position: fixed; font: 14px Arial; margin:10% 20% 10% 20%; padding: 5px 5px 5px 5px; height: 500px; width:60%; border: 1px solid gray}
-
-#foot{background:red}
-
-.btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    font-size: 40px;
-    color: #fff;
-    background: 0 0;
+body{
+	text-align:center;
+	font:12.5px Arial;
+	letter-spacing: 3px
 }
 
-body{
-	font:12.5px Arial;
+html, body{
+	height: 100%;
 }
 
 #introduction{
 	text-align: center;
-	height:400px;
+	color: white;
+	min-height:100%;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Other/sky.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 #projects{
 	text-align: center;
 	background-color: gray;
-	height:400px;
+	color:black;
+	height: 100%;
+	background-color: white;
 }
 
 #experience{
 	text-align: center;
-	height:400px;
+	min-height:100%;
+    color:black;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("../Other/paper_airplane.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
-heading{
-	font: bold 50px Arial;
-	/*
-	color:red;
-	font-family:Arial;
-	font-weight:bold;
-	font-style:italic;
-	font-size:24px;
-	*/
+#about{
+	color:black;
+	background-color: rgb(150, 190, 225);
+}
+
+#ending{
+	background-color: black;
+	color:white;
+	height: 200px;
+	font:bold 18px Arial;
+	letter-spacing: .5px
 }
 
 h1{ /*this is for the main title*/
-	font:bold 40px Arial;
-	/*padding:10px 80px 30px 2px; top right bottom left */
-	/*background-color:gray;*/
-	/*border:3px ridge red;*/
+	font:bold 20px Arial;
+	text-align: center;
+	min-height: 400px;
+	padding:10px 80px 30px 80px; top right bottom left
 }
 
-h2{
-	font: bold 18px "Times New Roman";
+hr.line{
+	width: 80px;
+	border: 1px solid rgb(0, 0, 0);
 }
 
-p{
-	font:15px Arial;
+.glyphicon.glyphicon-plane{
+	margin-top: 45px;
+	margin-bottom: 20px;
+	font-size: 50px;
+	color: white;
 }
 
-p{line-height: 1.5em}
+p.normal{
+    font:bold 30px Arial;
+	text-align:left;
+	padding:150px 30% 40px 30%;
+}
 
-
-
+p.small{
+	font:bold 12px Arial;
+	text-align:left;
+	padding:200px 10% 40px 10%;
+}
