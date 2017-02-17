@@ -22,3 +22,27 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+/*$(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('#introduction');
+   var offset = startchange.offset();
+   if (startchange.length){
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $(".navbar-default").css('background-color', 'transparent');
+       } else {
+          $('.navbar-default').css('background-color', '#f0f0f0');
+       }
+   });
+    }
+});*/
+
+  $(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+      $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+      $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    }
+  });
