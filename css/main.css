@@ -62,7 +62,7 @@ hr.line{
 }
 
 .glyphicon.glyphicon-plane{
-	margin-top: 45px;
+	margin-top: 37px;
 	margin-bottom: 20px;
 	font-size: 50px;
 	color: white;
@@ -82,9 +82,10 @@ hr.line{
     left: 0;
 }
 p.normal{
-    font:bold 30px Arial;
+    font:24px Arial;
 	text-align:left;
-	padding:150px 30% 40px 30%;
+	padding:250px 25% 40px 25%;
+	letter-spacing: 0.6px;
 }
 
 p.small{
