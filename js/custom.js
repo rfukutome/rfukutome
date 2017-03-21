@@ -23,6 +23,15 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function(){
+    $('.job-entry').hover(function() {
+        $(this).addClass('transition');
+    
+    }, function() {
+        $(this).removeClass('transition');
+    });
+});
+
 /*$(document).ready(function(){       
    var scroll_start = 0;
    var startchange = $('#introduction');
@@ -39,10 +48,11 @@ $(document).ready(function(){
     }
 });*/
 
-  $(window).scroll(function() {
+/*  $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
       $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
       $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
   });
+*/

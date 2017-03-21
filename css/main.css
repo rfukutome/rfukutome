@@ -1,34 +1,56 @@
 body{
 	text-align:center;
 	font:12.5px Arial;
-	letter-spacing: 3px
+	letter-spacing: .5px
 }
 
 html, body{
 	height: 100%;
 }
 
+@font-face{
+	font-family: 'Roboto';
+	src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+
+}
+
+@font-face{
+	font-family:'Roboto-Medium';
+	src: url(../fonts/Roboto-Medium.ttf) format('truetype');
+}
+
+.transition {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 #introduction{
-	text-align: center;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
 	color: white;
 	height:100%;
+	/*background-color:rgb(240,240,240);*/
 	background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../Other/sky.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	padding: 15% 5% 10% 5%;
 }
 
 #projects{
+	position:relative;
 	text-align: center;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../Other/graph.jpg");
 	color:black;
 	min-height: 100%;
 	background-color: white;
-	//-webkit-filter: blur(2px);
 }
 
 #experience{
 	text-align: center;
+	position:relative;
 	min-height:100%;
     color:black;
 	background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("../Other/paper_airplane.jpg");
@@ -51,28 +73,30 @@ html, body{
 	letter-spacing: .5px
 }
 
-h1{ /*this is for the main title*/
-	font:bold 20px Arial;
+h1.title{ /*this is for the main title*/
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-family: 'Roboto-Medium', sans-serif;
 	text-align: center;
-	padding:90px 80px 45px 80px; top right bottom left
+	padding:70px 10px 20px 10px;
 }
 
 hr.line{
-	width: 80px;
-	border: 1px solid rgb(0, 0, 0);
-}
-
-.glyphicon.glyphicon-plane{
-	margin-top: 37px;
-	margin-bottom: 20px;
-	font-size: 50px;
-	color: white;
+	width: 100px;
+	border: 1px solid rgba(0, 0, 0, .5);
 }
 
 .glyphicon.glyphicon-menu-down{
 	margin-bottom:10px;
 	font-size:25px;
 	color:white;
+}
+
+.glyphicon.glyphicon-menu-up{
+	margin-bottom:10px;
+	font-size:25px;
+	color:black;
 }
 
 .fixed-bottom{
@@ -82,6 +106,7 @@ hr.line{
     bottom: 0;
     left: 0;
 }
+
 p.normal{
     font:24px Arial;
 	text-align:left;
@@ -95,8 +120,48 @@ p.small{
 	padding:200px 10% 40px 10%;
 }
 
-.navbar-custom.top-nav-collapse .nav.navbar-nav {
-    background-color: rgba(0,0,0,1);
+.job-entry{
+	margin: 2% 8% 2% 8% !important;
+}
+
+.job-entry {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+}
+
+.job-info{
+	padding:3% 5% 5% 15% !important;
+	text-align:left;
+}
+.job-name{
+	font-size:20px;
+	font-weight:800;
+	font-family: 'Roboto-Medium', sans-serif;
+	text-transform: uppercase;
+	letter-spacing:1px;
+}
+
+.job-company{
+	font-size:12px;
+	font-family: Roboto-Medium;
+	text-transform: uppercase;
+}
+
+.job-date{
+	font:14px Arial;
+	padding-top:3%;
+    font-family: 'Roboto-Medium', sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight:900;
+	letter-spacing: 1px;
+}
+
+.job-description{
+	font-size: 15px;
+	font-family:'Roboto', sans-serif;
 }
 
 .navbar-custom ul.nav li a{
